@@ -1,0 +1,39 @@
+{
+  "name": "realtyofca",
+  "version": "1.0.0",
+  "description": "realtor web app template MERN stack",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server",
+    "server": "nodemon server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cc0a/realtyofca.git"
+  },
+  "keywords": [
+    "MERN",
+    "stack",
+    "real",
+    "estate"
+  ],
+  "author": "James McKee",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cc0a/realtyofca/issues"
+  },
+  "homepage": "https://github.com/cc0a/realtyofca#readme",
+  "dependencies": {
+    "bcrypt": "^3.0.6",
+    "config": "^3.1.0",
+    "express": "^4.17.1",
+    "express-validator": "^5.3.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.5.11",
+    "request": "^2.88.0"
+  },
+  "devDependencies": {
+      "concurrently": "^4.1.0",
+      "nodemon": "^1.18.11"
+  }
+}
